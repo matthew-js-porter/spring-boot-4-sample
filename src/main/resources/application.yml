@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: Spring Boot 4 Demo
+  mvc:
+    apiversion:
+      use:
+        query-parameter: version
+  http:
+    client:
+      service:
+        group:
+          hello:
+            base-url: http://localhost:8080
+        apiversion:
+          insert:
+            query-parameter: version
