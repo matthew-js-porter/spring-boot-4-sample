@@ -9,6 +9,10 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.client.RestTestClient;
 import org.springframework.web.client.ApiVersionInserter;
 
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+
 @SpringBootTest
 @AutoConfigureMockMvc
 class HelloControllerTest {
@@ -31,9 +35,9 @@ class HelloControllerTest {
     }
 
     @Test
-    void saysHello2() {
-        restTestClient.get().uri("/hello").apiVersion("2")
-                .exchange().expectBody(String.class).isEqualTo("Hello There!");
+    void saysHelloV2() throws Exception {
+        mockMvc.perform(get("/hello").apiVersion("2").apiVersionInserter(ApiVersionInserter.useQueryParam("version")))
+                .andExpect(status().isOk()).andExpect(content().string("Hello There!"));
     }
 
 }
