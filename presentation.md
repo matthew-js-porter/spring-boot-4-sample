@@ -25,7 +25,7 @@ Module Dependencies
 - Reduces size on `spring-boot-autoconfigure` jar
 - Separate `spring-boot-starter-webflux` and `spring-boot-starter-webclient`
 - `spring-boot-starter-webmvc` successor of `spring-boot-starter-web`
-
+- `spring-boot-starter-classic` for old behavior.
 ---
 
 
