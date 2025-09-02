@@ -89,3 +89,10 @@ restTestClient
         .expectBody(String.class)
         .isEqualTo("Hello World");
 ```
+
+---
+
+<!--alignment: center -->
+<!--new_lines: 10 -->
+<!--font_size: 7 -->
+DEMO
