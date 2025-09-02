@@ -5,6 +5,17 @@ options:
 theme:
   name: catppuccin-frappe
 ---
+Timeline
+===
+- Spring Boot 4.0.0-M2 released on Aug 21, 2025
+- Spring Boot 4.0.0-M3 releases on September 18, 2025
+- Spring Boot 4.0.0-RC1 releases on October 23, 2025
+- Spring Boot 4.0.0 releases on November 20, 2025
+- Spring Cloud 2025.1.0 releases on November 24, 2025
+
+[calendar.spring.io](https://calendar.spring.io/)
+
+---
 
 Major Dependency Upgrades
 ===
