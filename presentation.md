@@ -14,7 +14,7 @@ Major Dependency Upgrades
 - Tomcat 11
 - Kotlin 2
 - Jackson 3 (Not Yet)
-- Jspecify
+- Jspecify 🆕
 
 ---
 
@@ -47,6 +47,11 @@ spring:
         query-parameter: version
 ```
 
+- query
+- header
+- path
+- media-type parameter
+
 ---
 
 Http Service Client
@@ -56,7 +61,7 @@ Http Service Client
 @HttpServiceClient("hello")
 public interface HelloClient {
 
-    @GetExchange(value = "/hello", version = "2")
+    @GetExchange(value = "/hello")
     String hello();
 }
 ```
