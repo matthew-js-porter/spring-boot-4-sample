@@ -2,12 +2,14 @@
 title: What's New in Spring Boot 4 🍃
 options:
   end_slide_shorthand: true
+theme:
+  name: catppuccin-frappe
 ---
 
 Major Dependency Upgrades
 ===
 
-- Spring Framework 7 🍃
+- Spring Framework 7 `🍃`
 - Jakarta EE 11 (Servlet 6.1)
 - Tomcat 11
 - Kotlin 2
