@@ -1,0 +1,8 @@
+# AutoConfigureWebClient auto-configuration imports - TODO Open issue to have AutoConfigureWebClient pull in HttpServiceClientAutoConfiguration
+optional:org.springframework.boot.http.codec.autoconfigure.CodecsAutoConfiguration
+optional:org.springframework.boot.http.converter.autoconfigure.HttpMessageConvertersAutoConfiguration
+optional:org.springframework.boot.restclient.autoconfigure.RestClientAutoConfiguration
+optional:org.springframework.boot.restclient.autoconfigure.RestTemplateAutoConfiguration
+optional:org.springframework.boot.webclient.WebClientAutoConfiguration
+org.springframework.boot.test.autoconfigure.web.client.WebClientRestTemplateAutoConfiguration
+org.springframework.boot.restclient.autoconfigure.service.HttpServiceClientAutoConfiguration
