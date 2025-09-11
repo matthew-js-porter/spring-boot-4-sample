@@ -1,4 +1,4 @@
-# Spring Boot 4 Demo 🍃
+# Spring Boot 4 Demo 🍃 [![Build](https://github.com/matthew-js-porter/spring-boot-4-sample/actions/workflows/maven.yml/badge.svg)](https://github.com/matthew-js-porter/spring-boot-4-sample/actions/workflows/maven.yml)
 
 A sample project showcasing Spring Boot 4 features and capabilities.
 
